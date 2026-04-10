@@ -1,0 +1,23 @@
+{
+  "$schema": "./databases.schema.json",
+  "databases": [
+    {
+      "name": "myapp-dev",
+      "server": "my-dev-server.database.windows.net",
+      "database": "myapp-dev-db",
+      "environment": "nonprod"
+    },
+    {
+      "name": "myapp-staging",
+      "server": "my-dev-server.database.windows.net",
+      "database": "myapp-staging-db",
+      "environment": "nonprod"
+    },
+    {
+      "name": "myapp-prod",
+      "server": "my-prod-server.database.windows.net",
+      "database": "myapp-prod-db",
+      "environment": "prod"
+    }
+  ]
+}
