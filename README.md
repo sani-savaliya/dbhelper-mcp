@@ -1,5 +1,9 @@
 # dbhelper-mcp
 
+> **⚠️ DEPRECATED** — This project has been superseded by [**debugmcp**](https://github.com/sani-savaliya/debugmcp), which includes everything dbhelper-mcp does plus multi-database engine support (PostgreSQL, MySQL, SQLite), browser automation tools, and more. Please use debugmcp for new projects.
+
+---
+
 An MCP (Model Context Protocol) server that gives AI assistants **read-only access** to SQL Server databases. Query schemas, inspect tables, read stored procedures, and compare data across multiple databases — all through a safe, read-only interface.
 
 Built for use with [Claude Code](https://claude.ai/claude-code), [Cursor](https://cursor.com), and any MCP-compatible client.
